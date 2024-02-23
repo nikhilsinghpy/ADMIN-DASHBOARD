@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+main{
+  width: 90%;
+}
+
+.sidebar-header {
+  margin: 1.5rem 1% 1rem 5%;
+  color: var(--greycolor);
+  font-size: 0.8rem; 
+}
+
+.sidebar {
+  width: 220px;
+  height: 100vh;
+  background-color: var(--backgroundColor);
+  color: var(--textColor);  
+}
+
+.sidebar-menu-container {
+  height: 100%;
+  overflow-y: scroll; /* Add scrollbar */
+}
+
+.sidebar-menu {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar-menu li {
+  padding: 10px 20px;
+}
+
+.sidebar-menu li:hover {
+  background-color: var(--hovercolor);
+}
+
+.sidebar-menu a {
+  display: flex;
+  align-items: center;
+  color: var(--textColor);
+  text-decoration: none;
+}
+
+.sidebar-icon {
+  margin-right: 10px;
+}

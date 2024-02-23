@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+:root {
+  --backgroundColor: #303131;
+  --textColor: #fff;
+  --greycolor: #bdc1c6;
+  --hovercolor:#2f3958;
+}
+.containere-fluid{
+  padding-top: 3.5rem;
+}
+.Parent-container{
+    padding-top: 3rem;
+    background-color: red;
+    width: 100%;
+}
