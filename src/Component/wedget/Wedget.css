@@ -1,0 +1,82 @@
+.wedget {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.cs-card {
+    width: 25%;
+    min-height: 100px;
+    padding: 1.3rem 1.7rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row !important;
+    align-items: center;
+    letter-spacing: 1px;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+}
+
+.cs-card:nth-child(2) {
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+    color: white;
+}
+
+.cs-card:nth-child(3) {
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    
+
+}
+
+.cs-card:nth-child(4) {
+    background-color: #FBDA61;
+    background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
+
+}
+
+.wedget-Link {
+    color: var(--sp2);
+    font-size: 1.5rem;
+    background-color: white;
+    box-shadow: 1px 1px 5px 0px rgba(190, 189, 189, 0.75);
+    padding: 1rem 1.1rem;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.we-tittle {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--textcolor);
+}
+
+.we-dec {
+    color: var(--textcolor);
+    font-weight: 600;
+}
+@media  (max-width: 968px){
+    .wedget{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .cs-card{
+        width: 100%;
+    }
+}
+@media  (max-width: 663px){
+    .wedget{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .cs-card{
+        width: 100%;
+    }
+}

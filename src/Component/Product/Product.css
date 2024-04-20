@@ -1,0 +1,21 @@
+.product{
+    padding: 1rem 2rem;
+    background-color: var(--sp1);
+}
+.heading{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--textcolor);
+    text-shadow: 2px 2px 2px var(--sp2);
+}
+.product-container{
+    background-color: var(--textcolor);
+    margin-top: 2%;
+    padding: 1rem 2rem;
+    border-radius: .8rem;
+}
+.product-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

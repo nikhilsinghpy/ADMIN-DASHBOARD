@@ -1,0 +1,44 @@
+.cs-page{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    flex-direction: column;
+}
+.cs-page h1{
+    color: white;
+    text-shadow: 1px 1px 1px grey;
+}
+.messege-box{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-top: 3%;
+}
+.messege-box form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.messege-box form input{
+    width: 80%;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.messege-box form button{
+    width: 20%;
+    height: 100%;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    background-color: var(--bg2);
+    color: white;
+}
