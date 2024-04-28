@@ -10,6 +10,9 @@ import { Employee } from "./Component/Employee/Employee";
 import { Product } from "./Component/Product/Product";
 import { AddEmployee } from "./Component/Employee/AddEmployee";
 import { Pagenotfound } from "./Component/PagenotFound/Pagenotfound";
+import { LoginPage } from "./Component/auth/LoginPage";
+import Signup from "./Component/auth/Signup";
+import { UserProfile } from "./Component/auth/UserProfile";
 
 function App() {
   return (
@@ -18,10 +21,13 @@ function App() {
       <Header />
         <Routes>
           <Route path="/" element={<Dashboard/>} />
+          <Route path="/profile" element={<UserProfile/>} />
           <Route path="/order" element={<Order/>} />
           <Route path="/employee" element={<Employee/>} />
           <Route path="/product" element={<Product/>} />
           <Route path="/addemployee" element={<AddEmployee/>} />
+          <Route path="/login" element={<LoginPage/>} />
+          <Route path="/signup" element={<Signup/>} />
           <Route path="/*" element={<Pagenotfound/>} />
         </Routes>
       <Footer />

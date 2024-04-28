@@ -1,0 +1,69 @@
+.usercard{
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    gap: 1rem;
+}
+.cs-user{
+    background-color: #E3E6F6;
+    padding: 2rem 1rem;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.cs-user:nth-child(2){
+    width: calc(100% - 400px);
+}
+.cs-user .img-container{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid #4B49AC;
+}
+.cs-user .img-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.cs-user .user-detail{
+    width: 100%;
+    margin-top: 2%;
+    gap: 2rem;
+}
+.cs-user .user-detail .card{
+   margin-top: 5%;
+}
+.cs-user .user-detail .card .card-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #4B49AC;
+}
+.cs-user .user-detail .card .card-text{
+    font-size: 1rem;
+    color: #4B49AC;
+    margin-top: 4%;
+}
+.cs-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+    text-align: center;
+}
+ .Btn{
+    font-size: 1.5rem;
+    color: #4B49AC;
+    background-color: #E3E6F6;
+    padding: .4rem 1rem .7rem 1rem;
+    border-radius: .7rem;
+}
+.edit{
+    font-size: 1rem;
+    text-decoration: none;
+    text-align: center;
+    color: #58356f;
+}
